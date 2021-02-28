@@ -18,9 +18,7 @@ Resources
   * https://docs.docker.com/get-started/overview/
 
 Metadata
-  github repo
-    https://github.com/blaineh7/k8-demo.git
-Cloud Shell
+  Cloud Shell
   * setup environment
     * gcloud config set project constellation-275522
     * gcloud container clusters get-credentials cluster-1 --zone us-east1-b  --project constellation-275522
