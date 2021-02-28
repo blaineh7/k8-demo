@@ -4,14 +4,18 @@ Learning Objectives
   * Docker basics
   * Kubernetes system (k8) features
   * Launch looping Job from shell
-  * Launch  limited job from shell
+  * Launch limited job from shell
+  * Launch Service and modify content
   * kubectl basic commands
     * list pods
     * get shell access (exec) into running container
   * get status of pod
+  * review logs
   * remove job
 
-
+Resources
+  * https://cloud.google.com/kubernetes-engine/docs/concepts/kubernetes-engine-overview
+  * https://docs.docker.com/get-started/overview/
 
 Metadata
   github repo
