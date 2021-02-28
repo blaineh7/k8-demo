@@ -28,7 +28,7 @@ Cloud Shell
     * kubectl exec --stdin --tty {container name} -- {command (/bin/ash or bash)}
     * kubectl logs {name}
     * kubectl delete -f {name}
-    * kubectl describe pod {name} 
+    * kubectl describe pod {name}
     * kubectl describe job {name}  -get pod to exec into
 
   linux commands
