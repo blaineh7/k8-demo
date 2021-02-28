@@ -17,8 +17,9 @@ Resources
   * https://cloud.google.com/kubernetes-engine/docs/concepts/kubernetes-engine-overview
   * https://docs.docker.com/get-started/overview/
 
-Metadata
-  Cloud Shell
+# Metadata
+
+Cloud Shell
   * setup environment
     * gcloud config set project constellation-275522
     * gcloud container clusters get-credentials cluster-1 --zone us-east1-b  --project constellation-275522
