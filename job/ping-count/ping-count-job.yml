@@ -1,0 +1,13 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: bwh-demo-count-job
+spec:
+  template:
+    spec:
+      containers:
+      - name: alpine-ping
+        image: alpine:3.13.2
+        command: ["ping","-c5","8.8.8.8"]
+      restartPolicy: Never
+  backoffLimit: 4

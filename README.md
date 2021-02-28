@@ -28,3 +28,11 @@ Cloud Shell
     * kubectl exec --stdin --tty {container name} -- {command (/bin/ash or bash)}
     * kubectl logs {name}
     * kubectl delete -f {name}
+    * kubectl describe pod {name} 
+    * kubectl describe job {name}  -get pod to exec into
+
+  linux commands
+    * cat /etc/os-release  --get the version of linux running
+  docker commmands
+    * ctrl p + ctrl q  --exit containter without stopping the container
+

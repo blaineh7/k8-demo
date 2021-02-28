@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: BWH-Demo
+  name: bwh-demo-count-pod
 spec:
   containers:
   - name: alpine-ping
